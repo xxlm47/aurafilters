@@ -1,0 +1,42 @@
+export const FILTERS = {
+  ethereal: {
+    id: 'ethereal',
+    name: 'Ethereal',
+    css: 'saturate(1.2) brightness(1.1)',
+    description: 'Soft celestial glow with enhanced highlights.',
+    gradient: 'linear-gradient(135deg, #a855f7, #ff2d78)',
+    intensity: 0.8,
+    glow: true,
+    grain: true,
+  },
+  cyberpunk: {
+    id: 'cyberpunk',
+    name: 'Cyberpunk',
+    css: 'saturate(1.8) hue-rotate(200deg)',
+    description: 'High-contrast neon saturation with deep blues.',
+    gradient: 'linear-gradient(135deg, #00f5ff, #a855f7)',
+    intensity: 1.2,
+    glow: true,
+    grain: false,
+  },
+  noir: {
+    id: 'noir',
+    name: 'Neo-Noir',
+    css: 'grayscale(1) contrast(1.4) brightness(0.9)',
+    description: 'Gritty monochrome with deep shadows.',
+    gradient: 'linear-gradient(135deg, #333, #050508)',
+    intensity: 1.0,
+    glow: false,
+    grain: true,
+  },
+  lime: {
+    id: 'lime',
+    name: 'Toxic Lime',
+    css: 'sepia(0.5) hue-rotate(60deg) saturate(2)',
+    description: 'Electric green overtones and sharp detail.',
+    gradient: 'linear-gradient(135deg, #b6ff00, #00f5ff)',
+    intensity: 0.9,
+    glow: true,
+    grain: true,
+  }
+}
